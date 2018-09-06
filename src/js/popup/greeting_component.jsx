@@ -1,5 +1,4 @@
 import React from "react";
-import icon from "../../img/icon-128.png";
 import { hot } from "react-hot-loader";
 import ytdl from 'ytdl-core';
 
@@ -46,10 +45,10 @@ class GreetingComponent extends React.Component {
 
   render () {
     return (
-      <div className="container">
+      <div className="my-container">
         <h4>Download video/audio from YouTube</h4>
         <div className="form-group">
-          <label for="urlinput">Link</label>
+          <label htmlFor="urlinput">Link</label>
           <input onChange={this.urlChanged} name="url" type="text" className="form-control" placeholder="e.g. https://www.youtube.com/watch?v=RYMH3qrHFEM" id="urlinput"/>
         </div>
         <div className="form-group">
