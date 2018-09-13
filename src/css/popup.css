@@ -5,3 +5,11 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+
+td,th {
+    font-size: 10px;
+}
+th, .video-title{
+    text-align: center
+}
